@@ -6,7 +6,7 @@
   "main": "build/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "build": "tsc src/index.ts",
+    "build": "tsc",
     "start": "tsc src/index.ts && node ."
   },
   "devDependencies": {
